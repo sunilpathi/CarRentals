@@ -1,0 +1,33 @@
+:root {
+  --primary: #0f172a;
+  --accent: #38bdf8;
+  --success: #22c55e;
+  --light: #f8fafc;
+  --dark: #020617;
+}
+
+body {
+  margin: 0;
+  background: var(--light);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dark body {
+  background: var(--dark);
+  color: white;
+}
+
+.btn-primary {
+  background: var(--accent);
+  border: none;
+}
+
+.card {
+  border-radius: 14px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
